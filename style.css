@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+aside {
+  background-color: #50def2;
+  display: inline-block;
+  width: 20%;
+  color: #3c3c3c;
+  height: 100%;
+}
+
+button {
+  background-color: #50def2;
+}
+
+h3, .aside-list {
+    margin: auto;
+}
+
+h3 {
+  width: 60%;
+}
+
+header {
+  height: 15%;
+  text-align: center;
+}
+
+.middle {
+  height: 35%;
+}
+
+.main {
+  width: 80%;
+  display: inline-block;
+  float: right;
+  height: 100%;
+}
+
+.header {
+  background-color: #3c3c3c;
+  color: #50def2;
+}
+
+.exercises {
+  background-color: #3c3c3c;
+  height: 50%;
+}
+
+.middle {
+  background-color: #b5b5b5;
+}
+
+.form-title {
+  display: inline-block;
+}
+
+.list-title {
+  font-weight: 800;
+  /*width: 56%;*/
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px;
+  border-color: #3c3c3c;
+  border-bottom-style: solid;
+}
+
+li {
+  font-weight: 700;
+  margin: auto;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+ul {
+  margin: auto;
+  list-style: none;
+}
+
+h1, form {
+  margin: auto;
+}
+
+h1 {
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.list-item {
+  border-bottom: 1px;
+  border-color: #3c3c3c;
+  border-bottom-style: solid;
+  text-align: center;
+}
+
+.aside-list {
+  margin-top: 25px;
+}
+
+.avatar {
+  margin: auto;
+  border-radius: 50%;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  background-image: url('./assets/avatar-duff-mann.png')
+}
+
+.splits, .schedule, .goals, .nutrition {
+  display: inline-block;
+  height: 25%;
+  width: 25%;
+}
+
+
+.exercise-images {
+  margin: auto;
+  height: 305px;
+  width: 92%;
+  display: block;
+}
+
+.splits {
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  background-image: url('./assets/ivana.jpg')
+}
+
+.schedule {
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  background-image: url('./assets/calendar.jpg')
+}
